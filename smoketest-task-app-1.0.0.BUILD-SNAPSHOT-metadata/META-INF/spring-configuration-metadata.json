@@ -1,0 +1,49 @@
+{
+  "groups": [{
+    "name": "",
+    "type": "com.corp.dsat.pipeline.edp.SmoketestProperties",
+    "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties"
+  }],
+  "properties": [
+    {
+      "name": "databasename",
+      "type": "java.lang.String",
+      "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties"
+    },
+    {
+      "name": "datasourcename",
+      "type": "java.lang.String",
+      "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties"
+    },
+    {
+      "name": "fetchsize",
+      "type": "java.lang.Integer",
+      "description": "Fetch Size / Commit Interval",
+      "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "mode",
+      "type": "java.lang.String",
+      "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "recordscount",
+      "type": "java.lang.Integer",
+      "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "schemaname",
+      "type": "java.lang.String",
+      "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties"
+    },
+    {
+      "name": "table",
+      "type": "java.lang.String",
+      "sourceType": "com.corp.dsat.pipeline.edp.SmoketestProperties"
+    }
+  ],
+  "hints": []
+}
